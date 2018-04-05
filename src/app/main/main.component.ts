@@ -50,7 +50,7 @@ export class MainComponent implements OnInit {
       profession: record ? record.profession : 'default',
       school: record ? record.school : 'default'
     }
-    this.myArr.push(r);
+    this.myArr.unshift(r);
   }
 
 
