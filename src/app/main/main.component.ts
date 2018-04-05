@@ -10,7 +10,7 @@ export class MainComponent implements OnInit {
   private myArr: Array<object> = [];
   private shouldShowRed: boolean = false;
   private pStyle: object = {};
-  private newRecord:object = {};
+  private newRecord: object = {};
 
   constructor(
     private http: HttpService

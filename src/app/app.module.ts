@@ -13,6 +13,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {AngularMaterialModule} from './angular-material/angular-material.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,8 +28,10 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     AppRoutes,
     SharedServicesModule,
     FormsModule,
+
     AngularMaterialModule,
     BrowserAnimationsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
